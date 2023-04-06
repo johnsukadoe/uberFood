@@ -1,0 +1,672 @@
+body, html{
+	margin:0 auto;
+	font-family: 'Roboto', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+/*header*/
+header{
+	height: 72px;
+	display: flex;
+	flex-flow:row nowrap;
+	justify-content: flex-start;
+	align-items: center;
+}
+.head{
+	flex-grow: 1;
+}
+
+/*logo*/
+
+.logo{
+	width:119px;
+	height:15px;
+}
+/* login*/
+.loginButton{
+	width:78px;
+	height:40px;
+	font-family: 'Roboto', sans-serif;
+	font-size:13px;
+	font-weight: 500;
+	line-height: 24px;
+	border-radius: 3px;
+	border: 1px solid #E0E0E0;
+	outline: none;
+	background-color: white;
+	transition: background-color 0.5s ease-in;
+	margin:17px 22px 22px 0px;
+}
+.loginButton:hover{
+	background-color:#E0E0E0;
+}
+/* basket*/
+.basketpng{
+	width:22px;
+	height:27px;
+	padding:21px 9px 24px 9px;
+}
+.basket{
+	width:40px;
+	height:72px;
+	transition: background-color 0.5s ease-in;
+}
+.basket:hover{
+	background-color:#E0E0E0;
+}
+/*Search*/
+.search{
+	width: 100%;
+	height:35px;
+	outline:none;
+	border-top:0px;
+	border-right:0px;
+	border-left:0px;
+	border-bottom: 1px solid #E0E0E0;
+	margin :29px  0px 36px 81px;
+	transition: border-bottom 0.5s ease-in;
+}
+/*title Moscow*/
+.title{
+	font-family: Roboto;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 34px;
+	letter-spacing: 0em;
+	text-align: left;
+	height: 34px;
+	width: 217px;
+	margin:20px 826px 16px 81px;
+}
+/*cards*/
+.cards{
+	height:100vh;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+/* card1*/
+.card-1{
+	width:308px;
+	height:375px;
+	background-color: white;
+	transition:background-color 0.5s ease-in;
+	margin:16px 0px 0px 81px;
+}
+.card-1:hover{
+	background-color:#E0E0E0;
+}
+.mac{
+	width: 308px;
+	height: 256px;
+}
+.mac-photo{
+	width: 308px;
+	height: 256px;
+}
+.mac-title{
+	color:black;
+}
+.filter{
+	font-family: Roboto;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 21px;
+	letter-spacing: 0em;
+	text-align: left;
+	color:gray;
+}
+.filter-link{
+	color:gray;
+	transition: color 0.5s ease-in;
+}
+.filter-link:hover{
+	color:black;
+}
+.time{
+	font-family: Roboto;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 21px;
+	letter-spacing: 0em;
+	text-align: left
+}
+/*card2*/
+.card-2{
+	width:308px;
+	height:375px;
+	background-color: white;
+	transition:background-color 0.5s ease-in;
+	margin:16px 0px 0px 110px;
+}
+.card-2:hover{
+	background-color:#E0E0E0;
+}
+.dim{
+	width: 308px;
+	height: 256px;
+}
+.dim-photo{
+	width: 308px;
+	height: 256px;
+}
+.dim-title{
+	color:black;
+}
+.filter{
+	font-family: Roboto;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 21px;
+	letter-spacing: 0em;
+	text-align: left;
+	color:gray;
+}
+.filter-link{
+	color:gray;
+	transition: color 0.5s ease-in;
+}
+.filter-link:hover{
+	color:black;
+}
+.time{
+	font-family: Roboto;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 21px;
+	letter-spacing: 0em;
+	text-align: left
+}
+/*card3*/
+.card-3{
+	width:308px;
+	height:375px;
+	background-color: white;
+	transition:background-color 0.5s ease-in;
+	margin:16px 0px 0px 110px;
+}
+.card-3:hover{
+	background-color:#E0E0E0;
+}
+.man{
+	width: 308px;
+	height: 256px;
+}
+.man-photo{
+	width: 308px;
+	height: 256px;
+}
+.man-title{
+	color:black;
+}
+.filter{
+	font-family: Roboto;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 21px;
+	letter-spacing: 0em;
+	text-align: left;
+	color:gray;
+}
+.filter-link{
+	color:gray;
+	transition: color 0.5s ease-in;
+}
+.filter-link:hover{
+	color:black;
+}
+.time{
+	font-family: Roboto;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 21px;
+	letter-spacing: 0em;
+	text-align: left
+}
+/* card4*/
+.card-4{
+	width:308px;
+	height:375px;
+	background-color: white;
+	transition:background-color 0.5s ease-in;
+	margin:22px 0px 0px 81px;
+}
+.card-4:hover{
+	background-color:#E0E0E0;
+}
+.nha{
+	width: 308px;
+	height: 256px;
+}
+.nha-photo{
+	width: 308px;
+	height: 256px;
+}
+.nha-title{
+	color:black;
+}
+.filter{
+	font-family: Roboto;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 21px;
+	letter-spacing: 0em;
+	text-align: left;
+	color:gray;
+}
+.filter-link{
+	color:gray;
+	transition: color 0.5s ease-in;
+}
+.filter-link:hover{
+	color:black;
+}
+.time{
+	font-family: Roboto;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 21px;
+	letter-spacing: 0em;
+	text-align: left
+}
+/* card5*/
+.card-5{
+	width:308px;
+	height:375px;
+	background-color: white;
+	transition:background-color 0.5s ease-in;
+	margin:22px 0px 0px 110px;
+}
+.card-5:hover{
+	background-color:#E0E0E0;
+}
+.dzy{
+	width: 308px;
+	height: 256px;
+}
+.dzy-photo{
+	width: 308px;
+	height: 256px;
+}
+.dzy-title{
+	color:black;
+}
+.filter{
+	font-family: Roboto;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 21px;
+	letter-spacing: 0em;
+	text-align: left;
+	color:gray;
+}
+.filter-link{
+	color:gray;
+	transition: color 0.5s ease-in;
+}
+.filter-link:hover{
+	color:black;
+}
+.time{
+	font-family: Roboto;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 21px;
+	letter-spacing: 0em;
+	text-align: left
+}
+/*card6*/
+.card-6{
+	width:308px;
+	height:375px;
+	background-color: white;
+	transition:background-color 0.5s ease-in;
+	margin:22px 0px 0px 110px;
+}
+.card-6:hover{
+	background-color:#E0E0E0;
+}
+.cin{
+	width: 308px;
+	height: 256px;
+}
+.cin-photo{
+	width: 308px;
+	height: 256px;
+}
+.cin-title{
+	color:black;
+}
+.filter{
+	font-family: Roboto;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 21px;
+	letter-spacing: 0em;
+	text-align: left;
+	color:gray;
+}
+.filter-link{
+	color:gray;
+	transition: color 0.5s ease-in;
+}
+.filter-link:hover{
+	color:black;
+}
+.time{
+	font-family: Roboto;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 21px;
+	letter-spacing: 0em;
+	text-align: left
+}
+/* card7*/
+.card-7{
+	width:308px;
+	height:375px;
+	background-color: white;
+	transition:background-color 0.5s ease-in;
+	margin:22px 0px 0px 81px;
+}
+.card-7:hover{
+	background-color:#E0E0E0;
+}
+.piz{
+	width: 308px;
+	height: 256px;
+}
+.piz-photo{
+	width: 308px;
+	height: 256px;
+}
+.piz-title{
+	color:black;
+}
+.filter{
+	font-family: Roboto;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 21px;
+	letter-spacing: 0em;
+	text-align: left;
+	color:gray;
+}
+.filter-link{
+	color:gray;
+	transition: color 0.5s ease-in;
+}
+.filter-link:hover{
+	color:black;
+}
+.time{
+	font-family: Roboto;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 21px;
+	letter-spacing: 0em;
+	text-align: left
+}
+/* card8*/
+.card-8{
+	width:308px;
+	height:375px;
+	background-color: white;
+	transition:background-color 0.5s ease-in;
+	margin:22px 0px 0px 110px;
+}
+.card-8:hover{
+	background-color:#E0E0E0;
+}
+.zyy{
+	width: 308px;
+	height: 256px;
+}
+.zyy-photo{
+	width: 308px;
+	height: 256px;
+}
+.zyy-title{
+	color:black;
+}
+.filter{
+	font-family: Roboto;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 21px;
+	letter-spacing: 0em;
+	text-align: left;
+	color:gray;
+}
+.filter-link{
+	color:gray;
+	transition: color 0.5s ease-in;
+}
+.filter-link:hover{
+	color:black;
+}
+.time{
+	font-family: Roboto;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 21px;
+	letter-spacing: 0em;
+	text-align: left
+}
+/* card9*/
+.card-9{
+	width:308px;
+	height:375px;
+	background-color: white;
+	transition:background-color 0.5s ease-in;
+	margin:22px 0px 0px 110px;
+}
+.card-9:hover{
+	background-color:#E0E0E0;
+}
+.bar{
+	width: 308px;
+	height: 256px;
+}
+.bar-photo{
+	width: 308px;
+	height: 256px;
+}
+.bar-title{
+	color:black;
+}
+.filter{
+	font-family: Roboto;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 21px;
+	letter-spacing: 0em;
+	text-align: left;
+	color:gray;
+}
+.filter-link{
+	color:gray;
+	transition: color 0.5s ease-in;
+}
+.filter-link:hover{
+	color:black;
+}
+.time{
+	font-family: Roboto;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 21px;
+	letter-spacing: 0em;
+	text-align: left
+}
+footer{
+	margin-top: 600px;
+	background-color: #262626;
+}
+.footernav{
+	display: flex;
+	flex-flow:column wrap;
+}
+.logobottom{
+	margin:56px 0 0 81px;
+}
+hr{
+	background-color: gray;
+	width: 1152px;
+	height: 2px;
+	border: 0 solid gray;
+	margin:40px 0 0 81px;
+}
+select{
+	width: 227px;
+	height: 40px;
+	outline:none;
+	border:0 solid #3B3B3B;
+	background-color:#3B3B3B;
+	color:white;
+	transition: all 0.5s ease-in;
+	margin:32px 0 0 81px;
+}
+select:hover{
+	background-color:white;
+	color:#3B3B3B;
+}
+.Uber{
+	margin:33px 0 0 81px;
+}
+.lol{
+	height: 19px;
+	width: 10px;
+	font-family: Roboto;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 19px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #49A144;
+}
+.Uberlol{
+	height: 19px;
+	width: 65px;
+	font-family: Roboto;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 19px;
+	letter-spacing: 0em;
+	text-align: left;
+	color:white;
+}
+.share{
+	margin:16px 0 0 81px;
+}
+.links{
+	display: flex;
+	flex-flow:row nowrap;
+	margin:32px 0 0 81px;
+}
+.links-1{
+	display: flex;
+	flex-flow:column wrap;
+	margin:0 128px 0 0;
+}
+.links-2{
+	display: flex;
+	flex-flow:column wrap;	
+}
+.footernav{
+	display: flex;
+	flex-flow:row wrap;	
+}
+.links-link{
+	margin:0 0 23px 0;
+	color:white;
+	transition: color 0.5s ease-in;
+}
+.links-link:hover{
+	color:#49A144;
+}
+.app{
+	margin:41px 0 0 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow:column nowrap;
+}
+.low{
+	width:100%;
+	height:150px;
+	display: flex;
+	flex-direction: row;
+}
+.inc{
+	font-family: Roboto;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 13px;
+	letter-spacing: 0em;
+	text-align: left;
+	height: 13px;
+	width: 150px;
+	color:white;
+	margin:50px 0 0 81px;
+	transition: color 0.5s ease-in;
+}
+.inc:hover{
+	color:#49A144;
+}
+.per{
+	font-family: Roboto;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 13px;
+	letter-spacing: 0em;
+	text-align: left;
+	height: 13px;
+	width: 150px;
+	color:white;
+	margin:50px 0 0 336px;
+	transition: color 0.5s ease-in;
+}
+.per:hover{
+	color:#49A144;
+}
+.user{
+	font-family: Roboto;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 13px;
+	letter-spacing: 0em;
+	text-align: left;
+	height: 13px;
+	width: 150px;
+	color:white;
+	margin:50px 0 0 336px;
+	transition: color 0.5s ease-in;
+}
+.user:hover{
+	color:#49A144;
+}
